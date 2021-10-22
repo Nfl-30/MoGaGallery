@@ -1,0 +1,261 @@
+.site-layout-content {
+  min-height: 460px;
+  padding: 24px;
+  background: #fff;
+}
+
+.logo {
+  float: left;
+  width: 80px;
+  height: 60px;
+  margin: 0 24px 0 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.logo-pic {
+  float: left;
+  width: 90px;
+  height: 65px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.menu{
+  float: left;
+}
+
+.search {
+  max-width: 300px;
+  max-height: 50px;
+  float: right;
+  padding: 18px;
+}
+
+.switchplace {
+  max-width: 100px;
+  max-height: 100px;
+  float: right;
+}
+
+.ant-switch{
+  border: 1px solid #1890ff;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+  
+.light {
+  background-color: white;
+}
+
+.dark {
+  background: #001529;
+  transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+
+.About h1{
+  text-align: center;
+  font-size: 26px;
+}
+
+.About li{
+  font-size: 18px;
+}
+
+.form-center{
+  margin: 20px 70px;
+  padding: 60px;
+  /* border: 1px solid black; */
+}
+
+.form-center .ant-form-item-label {
+  text-align: left;
+}
+
+.form-center-login-register{
+  margin: 65px 210px;
+  padding: 50px 150px;
+}
+
+.form-center-login-register .ant-form-item-label {
+  text-align: left;
+}
+
+.container-home{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+}
+
+.container-detail{
+  display: flex;
+  width: 95%;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container-detail .ant-image{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+
+.container-detail img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+
+/* .Img-Detail-Content{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+} */
+
+.Detail-Content{
+ font-size: 16px;
+}
+
+.Detail-Content h1{
+  font-size: 24px;
+  margin: 10px;
+  font-weight: bolder;
+  text-align: center;
+ }
+
+.Detail-Content .Detailers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+}
+
+.Detail-Content .content-detail{
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 0 2px;
+  margin: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-color: #345B63;
+}
+
+.Detail-Content .paragraph{
+  padding: 10px;
+  margin: 5px;
+  text-align: justify;
+}
+
+.container-detail-games{
+  /* display: flex; */
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid black; */
+  /* justify-content: space-between; */
+  margin: 0 auto;
+}
+.container-detail-games .ant-image{
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+
+.container-detail-games img{
+  max-width: 250px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+
+.Detail-Content .paragraph-title-game{
+  padding: 0;
+  margin: 0px 5px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.Detail-Content .paragraph-game{
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.Detail-Content .Detailers-game{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+}
+
+/* FORM TABLE */
+
+/* .table-t11{
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tr-t11{
+  border-bottom: 0.5px solid gray;
+}
+
+.th-t11{
+  margin: 0 auto;
+  padding: 10px 10px 10px 0px;
+}
+
+.td-t11{
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.td-t11 .input-12{
+  width: 100%;
+}*/
+
+.td-t11 .description{
+  height: 200px;
+}
+
+.table-form-t11{
+  width: 70%;
+  margin: 10px auto;
+  text-align: left;
+  /* border: 1px solid grey; */
+}
+
+.align-right-table{
+  text-align: right;
+}
+
+.td-100{
+  width: 100%;
+}
+
+.label-form{
+  font-weight: bold;
+}
+
+.form-table-margin{
+  padding: 10px;
+}
+
+.vertical-align-left{
+  vertical-align: bottom;
+}
