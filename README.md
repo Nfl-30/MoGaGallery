@@ -1,0 +1,2 @@
+# MoGaGallery
+A gallery of movie and games using an API. Able to register new user, change password, login and also logout. Some certain navigation menu only appears when the user are login. There are 2 galleries on this website the first is movie and the second one are games. Each categories contains a gallery, a table, and a form to input the data (to access the table and form the user are required to login).
