@@ -55,7 +55,7 @@ const Navigation = () =>{
     Cookies.remove('token')
     Cookies.remove('username')
     Cookies.remove('email')
-    window.location = '/login'
+    window.location = '/Login'
   }
 
   const RouteLogin = ({...props}) => {
